@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from './../../redux/contact/contact-actions';
-import { getContacts } from '../../redux/contact/contact-selectors';
+import { addContact } from '../../Redux/contacts/contact-actions';
+import { getContacts } from '../../Redux/contacts/contact-selectors';
 import s from './ContactForm.module.css';
 import sBtn from '../../App.module.css';
 

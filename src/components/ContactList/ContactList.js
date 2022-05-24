@@ -1,6 +1,6 @@
 import ContactItem from './ContactItem/ContactItem';
 import s from './ContactList.module.css';
-import { getVisibleContacts } from '../../redux/contact/contact-selectors';
+import { getVisibleContacts } from '../../Redux/contacts/contact-selectors';
 import { useSelector } from 'react-redux';
 
 export default function ContactList() {
